@@ -3,6 +3,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverse",
+      "request": "launch",
+      "mainClass": "Queue.reverse",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "Queues",
+      "request": "launch",
+      "mainClass": "Queue.Queues",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "reverse",
+      "request": "launch",
+      "mainClass": "STACK.reverse",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "stacks",
+      "request": "launch",
+      "mainClass": "STACK.stacks",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "sort012Linklist",
+      "request": "launch",
+      "mainClass": "linked_list.sort012Linklist",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "list",
+      "request": "launch",
+      "mainClass": "linked_list.list",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "Quicksort",
+      "request": "launch",
+      "mainClass": "Quicksort",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "mergesort",
+      "request": "launch",
+      "mainClass": "mergesort",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
       "name": "BubbleSort",
       "request": "launch",
       "mainClass": "BubbleSort",
