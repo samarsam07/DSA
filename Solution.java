@@ -14,10 +14,20 @@ public class Solution {
         s[start]=s[end];
         s[end]=temp;
     }
+    public int chalkReplacer(int[] chalk, int k) {
+        int i=0;
+        int size=chalk.length;
+        while(k!=0 && chalk[i]>k){
+            k=k-chalk[i%size];
+            i++;
+        }
+        return i%size;
+    }
 
     public static void main(String[] args) {
-        char[] name={'h','e','l','l','o'};
-        reverseString(name);
-        System.out.println(name);
+        // char[] name={'h','e','l','l','o'};
+        // reverseString(name);
+        // System.out.println(name);
+        
     }
 } 
