@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "math",
+      "request": "launch",
+      "mainClass": "math",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
       "name": "skipChar",
       "request": "launch",
       "mainClass": "recursion.skipChar",
