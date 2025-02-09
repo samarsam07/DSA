@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subset",
+      "request": "launch",
+      "mainClass": "recursion.subset",
+      "projectName": "DSA_92fd4b2"
+    },
+    {
+      "type": "java",
       "name": "math",
       "request": "launch",
       "mainClass": "math",
