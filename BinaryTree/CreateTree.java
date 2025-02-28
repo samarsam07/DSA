@@ -14,7 +14,7 @@ class TreeNode{
 public class CreateTree{
     static int index=0;
     public static void main(String[] args) {
-        TreeNode root = treeFromInorderAndPreorder(new int[]{4,2,5,1,6,3},new int[]{1,2,4,5,3,6});
+        TreeNode root = treeFromInorderAndPreorder(new int[]{1 ,6 ,8 ,7},new int[]{ 1, 6, 7, 8});
                 System.out.println("Inorder Traversal");
                 inorder(root);
             }
@@ -28,8 +28,8 @@ public class CreateTree{
             }
     static TreeNode treeFromInorderAndPreorder(int []inorder,int[] preorder){
         HashMap<Integer,Integer> map = new HashMap<>();
-        for(int i=0;i<preorder.length;i++){
-            map.put(preorder[i],i);
+        for(int i=0;i<inorder.length;i++){
+            map.put(inorder[i],i);
         }
         index=0;
         return buildTree(inorder,preorder,0,inorder.length-1,map);
@@ -38,7 +38,7 @@ public class CreateTree{
         if(start>end){
             return null;
         }
-        int value=inorder[index++];
+        int value=preorder[index++];
         int i = map.get(value);
         TreeNode root = new TreeNode(value);
         root.left = buildTree(inorder,preorder,start,i-1,map);
