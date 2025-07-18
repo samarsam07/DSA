@@ -4,8 +4,8 @@ public static void main(String[] args) {
     String s="bcdappappleccd";
     
     
-    // System.out.println(skip( s, 'a'));
-    // System.out.println(skipString(s, "apple"));
+     System.out.println(skip( s, 'a'));
+     System.out.println(skipString(s, "apple"));
     System.out.println(skipString2(s, "app", "apple"));
 }
 static String skip(String s,char c){

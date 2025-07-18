@@ -3,13 +3,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "RotatedArray",
-      "request": "launch",
-      "mainClass": "recursion.RotatedArray",
-      "projectName": "DSA_5986479"
-    },
-    {
-      "type": "java",
       "name": "CreateTree",
       "request": "launch",
       "mainClass": "BinaryTree.CreateTree",
