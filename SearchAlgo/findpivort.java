@@ -1,3 +1,4 @@
+package SearchAlgo;
 public class findpivort {
     static int getpivort(int arr[]){
         int s=0;int e=arr.length-1;

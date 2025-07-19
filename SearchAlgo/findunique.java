@@ -1,3 +1,4 @@
+package SearchAlgo;
 class findunique{
    
     public static void main(String[] args) {

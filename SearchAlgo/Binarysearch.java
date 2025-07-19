@@ -1,3 +1,4 @@
+package SearchAlgo;
 public class Binarysearch {
     static int binarysearch(int arr[],int target){
         int start=0;

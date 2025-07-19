@@ -1,3 +1,4 @@
+package SearchAlgo;
 public class BookAllocation {
     static int allocatebook(int arr[],int m){
         int s=0;

@@ -1,3 +1,4 @@
+package SearchAlgo;
 import java.util.*;
 public class AggressiveCows {
     static int aggressiveCows(int arr[],int k){

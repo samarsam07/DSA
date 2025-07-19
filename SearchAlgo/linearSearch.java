@@ -1,3 +1,4 @@
+package SearchAlgo;
 // Java code for linearly searching x in arr[]. 
 
 import java.io.*;
