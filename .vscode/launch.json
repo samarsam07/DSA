@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MazePath",
+      "request": "launch",
+      "mainClass": "backTracking.MazePath",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "CountingPaths",
+      "request": "launch",
+      "mainClass": "backTracking.CountingPaths",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "Permuatation",
+      "request": "launch",
+      "mainClass": "recursion.Permuatation",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "Quicksort",
+      "request": "launch",
+      "mainClass": "sorting.Quicksort",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "Quick",
+      "request": "launch",
+      "mainClass": "sorting.Quick",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "RotatedArray",
       "request": "launch",
       "mainClass": "recursion.RotatedArray",
