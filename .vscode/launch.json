@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AllPaths",
+      "request": "launch",
+      "mainClass": "backTracking.AllPaths",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "MazePath",
       "request": "launch",
       "mainClass": "backTracking.MazePath",

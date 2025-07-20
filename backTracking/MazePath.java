@@ -12,6 +12,7 @@ public class MazePath {
     static void mazePaths(int row,int col,int endRow,int endCol,String res){
         if(row==endRow && col==endCol){
             System.out.println(res);
+            return;
         }
         if(row<endRow){
             mazePaths(row+1, col, endRow, endCol, res+"D");
