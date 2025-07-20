@@ -99,6 +99,7 @@ public class AllPaths {
         if(row==maze.length-1 && col==maze[0].length-1){
            List<String> ans=new ArrayList<>();
            ans.add(res);
+           path[row][col]=step;
            for(int[] arr:path){
             System.out.println(Arrays.toString(arr));
            }
