@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SudokuSolver",
+      "request": "launch",
+      "mainClass": "backTracking.SudokuSolver",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "Nknights",
+      "request": "launch",
+      "mainClass": "backTracking.Nknights",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "NQueen",
+      "request": "launch",
+      "mainClass": "backTracking.NQueen",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "AllPaths",
       "request": "launch",
       "mainClass": "backTracking.AllPaths",
