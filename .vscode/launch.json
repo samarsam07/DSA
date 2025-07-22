@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CreateTree",
+      "request": "launch",
+      "mainClass": "CreateTree",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "VaildParenthesis",
+      "request": "launch",
+      "mainClass": "STACK.VaildParenthesis",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "LargestAreaInHistogram",
+      "request": "launch",
+      "mainClass": "STACK.LargestAreaInHistogram",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "StackGame",
+      "request": "launch",
+      "mainClass": "STACK.StackGame",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "TrapRainWater",
       "request": "launch",
       "mainClass": "TrapRainWater",
