@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TrapRainWater",
+      "request": "launch",
+      "mainClass": "TrapRainWater",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "List",
+      "request": "launch",
+      "mainClass": "linked_list.List",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "list",
+      "request": "launch",
+      "mainClass": "linked_list.list",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "SudokuSolver",
       "request": "launch",
       "mainClass": "backTracking.SudokuSolver",
