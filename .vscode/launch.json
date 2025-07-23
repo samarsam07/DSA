@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SegmentTree",
+      "request": "launch",
+      "mainClass": "SegmentTree",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "AVLTree",
+      "request": "launch",
+      "mainClass": "AVLTree",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTree",
+      "request": "launch",
+      "mainClass": "BinaryTree",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "ReverseList",
+      "request": "launch",
+      "mainClass": "linked_list.ReverseList",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "CreateTree",
       "request": "launch",
       "mainClass": "CreateTree",
