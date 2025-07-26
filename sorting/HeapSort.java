@@ -1,5 +1,7 @@
 package sorting;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 class HeapSort {
   
@@ -67,9 +69,20 @@ class HeapSort {
         System.out.println();
     }
 
+
     // Driver's code
     public static void main(String args[]) {
         int arr[] = {9, 4, 3, 8, 10, 2, 5}; 
+        PriorityQueue<Integer> q=new PriorityQueue<>();
+        for(int num:arr){
+            q.offer(num);
+        }
+        ArrayList<Integer>data =new ArrayList<>();
+        while(!q.isEmpty()){
+            data.add(q.poll());
+        }
+        System.out.println(data.toString());
+
         heapSort(arr);
         System.out.println("Sorted array is ");
         printArray(arr);

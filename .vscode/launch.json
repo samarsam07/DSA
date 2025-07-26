@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HeapSort",
+      "request": "launch",
+      "mainClass": "sorting.HeapSort",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "Heap",
+      "request": "launch",
+      "mainClass": "Heaps.Heap",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "SegmentTree",
       "request": "launch",
       "mainClass": "SegmentTree",
