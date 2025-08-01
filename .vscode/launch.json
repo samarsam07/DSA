@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Graph",
+      "request": "launch",
+      "mainClass": "Graph",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "WaterMelon",
+      "request": "launch",
+      "mainClass": "WaterMelon",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "HeapSort",
       "request": "launch",
       "mainClass": "sorting.HeapSort",
