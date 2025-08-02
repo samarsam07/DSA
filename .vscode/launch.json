@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Dfs",
+      "request": "launch",
+      "mainClass": "Dfs",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "Graph",
       "request": "launch",
       "mainClass": "Graph",
