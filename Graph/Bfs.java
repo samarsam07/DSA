@@ -13,7 +13,6 @@ public class Bfs {
                 bfs(i, queue, visited, adj, res);
             }
         }
-
         return res;
     }
     public void bfs(int source,Queue<Integer> queue,boolean[] visited,List<List<Integer>> adj,List<Integer> res){
