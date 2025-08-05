@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumCoins",
+      "request": "launch",
+      "mainClass": "MinimumCoins",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "Dfs",
       "request": "launch",
       "mainClass": "Dfs",
@@ -218,8 +232,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/MD SAMAR/Documents/DSA",
-      "program": "c:/Users/MD SAMAR/Documents/DSA/build/Debug/outDebug",
+      "cwd": "c:/Users/MD SAMAR/OneDrive/Documents/DSA",
+      "program": "c:/Users/MD SAMAR/OneDrive/Documents/DSA/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
