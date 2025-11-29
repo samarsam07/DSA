@@ -1,3 +1,6 @@
+package DynamicProgramming;
+
+
 public class MinimumCoins {
     public static int minimumCoins(int[] coins,int target){
         // return solve(coins,target);

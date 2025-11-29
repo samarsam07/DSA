@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lca",
+      "request": "launch",
+      "mainClass": "questions.Lca",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "BoundaryTraverse",
+      "request": "launch",
+      "mainClass": "questions.BoundaryTraverse",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "LongestStreakOfZeroOrOne",
+      "request": "launch",
+      "mainClass": "array.LongestStreakOfZeroOrOne",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "MinimumCoins",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.MinimumCoins",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "chalk",
+      "request": "launch",
+      "mainClass": "chalk",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "MinimumCoins",
       "request": "launch",
       "mainClass": "MinimumCoins",

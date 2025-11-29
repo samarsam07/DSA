@@ -1,34 +1,60 @@
 import java.util.*;
 
+
 public class VerticalTraverse {
-    public List<List<Integer>> VerticalTraverse(TreeNode root){
-        List<List<Integer>> ans =new ArrayList<>();
+    private static class TreeNode{
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int val){
+            this.val=val;
+            this.left=null;
+            this.right=null;
+        }
+    }
+    class LevelNode{
+        private TreeNode node;
+        private int lvl;
+        public LevelNode(TreeNode node,int lvl){
+            this.node=node;
+            this.lvl=lvl;
+        }
+        public TreeNode getNode(){
+            return node;
+        }
+        public int getLvl(){
+            return lvl;
+        }
+    }
+    public List<List<Integer>> verticalTraversal(TreeNode root){
+        List<List<Integer>> ans=new ArrayList<>();
         if(root==null)return ans;
+
         int col=0;
-        Queue<Map.Entry<TreeNode,Integer>> queue=new ArrayDeque<>();
-        Map<Integer,List<Integer>> map=new HashMap<>();
-        queue.offer(new AbstractMap.SimpleEntry<>(root,col));
-        int min=0;
-        int max=0;
-        while(!queue.isEmpty()){
-            Map.Entry<TreeNode,Integer> removed=queue.poll();
-            root=removed.getKey();
-            col=removed.getValue();
-            if(root!=null){
-                if(!map.containsKey(col)){
-                    map.put(col, new ArrayList<>());
-                }
-                map.get(col).add(root.val);
-                min=Math.min(min, col);
-                max=Math.max(col, max);
-                queue.offer(new AbstractMap.SimpleEntry<>(root.left,col-1));
-                queue.offer(new AbstractMap.SimpleEntry<>(root.right,col+1));
+        Queue<LevelNode> q=new LinkedList<>();
+        LevelNode start=new LevelNode(root, col);
+        HashMap<Integer,List<Integer>> map=new HashMap<>();
+        q.add(start);
+        int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
+        while(!q.isEmpty()){
+            LevelNode curr=q.poll();
+            if(!map.containsKey(curr.getLvl())){
+                map.put(curr.getLvl(), new ArrayList<>());
+            }
+            map.get(curr.getLvl()).add(curr.getNode().val);
+            min=Math.min(min,curr.getLvl());
+            max=Math.max(max, curr.getLvl());
+            if(curr.getNode().left!=null){
+                q.add(new LevelNode(curr.getNode().left, curr.getLvl()-1));
+            }
+             if(curr.getNode().right!=null){
+                q.add(new LevelNode(curr.getNode().right, curr.getLvl()+1));
             }
         }
         for(int i=min;i<=max;i++){
             ans.add(map.get(i));
         }
-
         return ans;
     }
 }
