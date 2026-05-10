@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BSTElementRange",
+      "request": "launch",
+      "mainClass": "questions.BSTElementRange",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "DiamterOfTree",
+      "request": "launch",
+      "mainClass": "questions.DiamterOfTree",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "EvenOddArray",
+      "request": "launch",
+      "mainClass": "questions.EvenOddArray",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
+      "name": "MissingNumber",
+      "request": "launch",
+      "mainClass": "questions.MissingNumber",
+      "projectName": "DSA_5986479"
+    },
+    {
+      "type": "java",
       "name": "Lca",
       "request": "launch",
       "mainClass": "questions.Lca",

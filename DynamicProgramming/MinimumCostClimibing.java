@@ -1,3 +1,4 @@
+package DynamicProgramming;
 public class MinimumCostClimibing {
     public int minCostClimbingStairs(int[] cost) {
         int n=cost.length;

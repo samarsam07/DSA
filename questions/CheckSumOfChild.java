@@ -1,6 +1,6 @@
 package questions;
 
-import STACK.stacks;
+
 
 public class CheckSumOfChild {
     public static boolean checkSumOfChild(TreeNode root){
